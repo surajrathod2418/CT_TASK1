@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://www.hdwallpapers.in/download/aerial_view_of_aqua_waves_rolling_onto_soft_golden_sand_creating_white_foamy_patterns_at_the_shore_hd_beach-1920x1080.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quiz-container {
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 25px;
+    width: 420px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ff3d00;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff5722;
+}
+
+.option-btn {
+    background-color: #1e88e5;
+}
+
+.option-btn.correct {
+    background-color: #2e7d32;
+}
+
+.option-btn.wrong {
+    background-color: #c62828;
+}
